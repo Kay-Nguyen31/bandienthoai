@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #FFF;
+    margin: auto;
+    width: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+
+.title_captk {
+    background-color: dodgerblue;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+}
+
+.title_captk h3 {
+    width: 100%;
+    /* color: white; */
+}
+
+.title_captk button {
+    float: right;
+    background-color: dodgerblue;
+    border: none;
+    width: 40px;
+}
+
+.main .title_captk button img {
+    width: 20px;
+}
+
+.content_captk_captk {
+    /* display: flex; */
+    border: 1px solid #000;
+}
+
+.content_captk_captk .ho,
+.content_captk_captk .ten {
+    width: 50%;
+    /* float: left; */
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.content_captk .ho label {
+    width: 100%;
+}
+
+.content_captk .ho input,
+.content_captk .ten input,
+.content_captk .email input,
+.content_captk .taikhoan input,
+.content_captk .matkhau input {
+    margin-top: 10px;
+    width: 100%;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.content_captk .gioitinh,
+.content_captk .email,
+.content_captk .taikhoan,
+.content_captk .matkhau {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content_captk .gioitinh p {
+    margin-top: 10px;
+}
+
+.content_captk .gioitinh span {
+    margin-top: 10px;
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.content_captk .btn_tao {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content_captk .btn_tao input {
+    width: 100%;
+    height: 30px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+}

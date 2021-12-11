@@ -1,0 +1,102 @@
+.sanpham {
+    float: right;
+    width: calc(95% - 350px);
+    margin-top: 20px;
+    background-color: white;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.sanpham h2{
+    color: rgb(24, 8, 117);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.r {
+    display: flex;
+    max-width: 1100px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.r label {
+    font-size: 20px;
+}
+
+.c-2 {
+    width: 100%;
+    float: left;
+    margin-top: 20px;  
+    font-size: 20px;
+    display: flex;
+}
+
+.c-2 label {
+    float: left;
+    width: 33%;
+}
+
+.c-2 input {
+    font-size: 66%;
+}
+.c-2 textarea{
+    font-size: 66%;
+}
+
+.r-button {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add {
+    background: #3333FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.add:hover{
+    background-color: #175ab3;
+    font-size: 25px;
+    width: 145px;
+    height: 45px;
+}
+.thoat {
+    background: #3333FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.thoat:hover{
+    background-color: #175ab3;
+    font-size: 25px;
+    width: 145px;
+    height: 45px;
+}
+@media screen and (max-width:600px) {
+    .sanpham {
+        width: calc(100% - 100px);
+        margin-right: 50px;
+    }
+
+    .r label {
+        font-size: 1rem;
+        width: 20%;
+    }
+    .c-2 textarea{
+        font-size: 50%;
+    }
+    .r {
+        margin-left: 5%;
+    }
+}

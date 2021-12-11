@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kh-container {
+    width: 950px;
+    height: 600px;
+    margin-left: 270px;
+    background-color: ghostwhite;
+}
+
+.kh-title {
+    text-align: center;
+}
+
+.kh-content {
+    margin-top: 30px;
+}
+
+.kh-content table {
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.kh-content table th,
+.kh-content table td {
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.kh-content .kh-btn {
+    background-color: cadetblue;
+    width: 40px;
+    height: 25px;
+    border: none;
+}
+
+.kh-content .kh-btn:hover {
+    background-color: thistle;
+}
+
+.kh-content .kh-btn a {
+    text-decoration: none;
+    color: white;
+}

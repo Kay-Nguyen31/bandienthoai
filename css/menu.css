@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #04478a;
+    width: 100%;
+    
+}
+
+.container-menu {
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu .menu-list {
+    list-style-type: none;
+    background-color: #04478a;
+
+}
+
+.menu .menu-list li {
+    display: inline-table;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+
+}
+
+.menu-list .menu-link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.icon {
+    display: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    line-height: 40px; 
+    /* chỉnh line-height = height để text nằm giữa */
+}
+.over-play{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* 0.3 là độ trong suốt
+    over_play để phũ kính màng hình */
+    display: none;
+}
+
+.menu-list li a:hover {
+    background-color: #868deb;
+    color: #333;
+
+}
+.menu-reponsive{
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    max-width: 100%;
+    background-color: #04478a;
+    transform: translateX(-100%);
+}
+.menu-list-reponsive{
+    margin-top: 24px;
+}
+.menu-link-reponsive{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.menu-list-reponsive li a:hover{
+    background-color: #868deb;
+    color: #333;
+
+}
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: rgb(27, 2, 138);
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-input:checked ~ .over-play{
+    display: block;
+}
+.menu-input:checked ~ .menu-reponsive{
+    transform: translateX(0%);
+}
+
+@media screen and (max-width:600px) {
+    .menu{
+        display: none;
+    }
+    .icon{
+        display: block;
+        color: white;
+        text-align: left;
+    }
+    
+}

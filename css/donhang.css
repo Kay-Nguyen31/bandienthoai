@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dh-container {
+    width: 950px;
+    height: 600px;
+    margin-left: 270px;
+    background-color: whitesmoke;
+}
+
+.dh-main {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    width: 850px;
+    background-color: white;
+    margin: 0 65px;
+}
+
+.header-group {
+    margin-top: 15px;
+}
+
+.dh-title {
+    text-align: center;
+}
+
+.dh-timkiem {
+    float: left;
+    margin-left: 10px;
+}
+
+.dh-timkiem input {
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.dh-timkiem #btn-timkiem {
+    background-color: cadetblue;
+    color: white;
+}
+
+.dh-timkiem #btn-timkiem:hover {
+    background-color: thistle;
+}
+
+.dh-content {
+    margin-top: 70px;
+    /* margin-left: 30px; */
+}
+
+.dh-content table {
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.dh-content table th,
+.dh-content table td {
+    padding: 10px 5px;
+    border: 1px solid black;
+}
+
+.dh-content table tr img {
+    width: 50px;
+}
+
+.btn-them {
+    float: right;
+    margin-right: 10px;
+}
+
+.btn-them button {
+    padding: 5px;
+    background-color: violet;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-them button:hover {
+    background-color: steelblue;
+}
+
+.dh-content .btn-capnhat {
+    background-color: cadetblue;
+    width: 60px;
+    height: 25px;
+    border: none;
+}
+
+.dh-content .btn-xoa {
+    background-color: cadetblue;
+    width: 40px;
+    height: 25px;
+    border: none;
+}
+
+.dh-content .dh-btn:hover {
+    background-color: thistle;
+}
+
+.btn-them a,
+.dh-content .btn-capnhat a,
+.dh-content .btn-xoa a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(125, 182, 248);
+   
+}
+
+.item-logo {  
+    flex-basis: 25%;
+    text-align: center;
+}
+.img{
+    max-width: 100%;
+}
+.item-timkiem {
+   
+    flex-basis: 50%;
+    text-align: center;
+    display: flex;
+
+}
+.timkiem{
+    margin: auto;
+    margin-top: 20px;
+}
+.ip-timkiem {
+
+    padding: 5px;
+    margin-left: 10px;
+    border-color: rgb(0, 23, 128);
+    font-size: 18px;
+    width: 300px;
+}
+.bt-timkiem {
+    float: right;
+    padding: 5px;    
+    font-size: 18px;
+    background-color: rgb(0, 23, 128);
+    color: white;
+}
+.bt-timkiem:hover{
+    background-color: rgb(8, 44, 202);
+}
+.item-dndk {
+   
+    flex-basis: 25%;   
+    text-align: left;
+    display: flex;
+}
+.dndk{
+    margin: auto;
+    margin-top: 20px;
+   
+}
+.item-dndk .dangnhap {
+   background-color: rgb(0, 23, 128);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+.item-dndk .dangnhap:hover{
+    background-color: rgb(8, 44, 202) ;
+}
+.item-dndk .dangki {
+    padding: 9px 25px;
+    border-style: solid;
+    border-color: #07187c;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 15px;
+    color: rgb(37, 37, 37);
+}
+.item-dndk .dangki:hover{
+    border-color: rgb(8, 44, 202);
+}
+@media screen and (max-width:600px){
+    .item-logo {  
+        flex-basis: 100%;
+        text-align: center;
+        height: 80px;
+    }
+    .item-timkiem {  
+        flex-basis: 100%;
+        text-align: center;
+        display: flex;  
+        margin-bottom: 20px;
+    }
+    .item-dndk { 
+        display: none;
+    }
+}

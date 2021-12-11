@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bn-main_admin {
+    height: 300px;
+}
+
+.banner_admin {
+    display: flex;
+}
+
+.banner_admin,
+.bn-group_admin {
+    width: 100%;
+    /* position: relative; */
+    position: absolute;
+}
+
+.banner_admin img {
+    width: 100%;
+    position: relative;
+}
+
+.bn-group_admin {
+    width: 300px;
+    z-index: 1;
+    margin-left: 75%;
+    text-align: right;
+}
+
+.bn-group_admin .img1 {
+    width: 180px;
+}
+
+
+
+.banner_admin h1 {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.header_admin {}
+
+.header-left_admin,
+.header-right_admin {
+    line-height: 40px;
+    background-color: gainsboro;
+}
+
+.header-left_admin>li,
+.header-right_admin>li {
+    display: inline;
+}
+
+.header-left_admin>li {
+    padding: 10px 20px;
+}
+
+.header-right_admin>li {
+    margin: 20px 10px;
+    padding: 10px 5px;
+}
+
+.header-left_admin {
+    width: 80%;
+    float: left;
+}
+
+.header-right_admin {
+    width: 20%;
+    float: left;
+    /* padding-left: 30px; */
+    text-align: center;
+}
+
+.header-left_admin>li:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.header-left_admin>li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right_admin>li #hd-hoten {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-right_admin>li #hd-thoat {
+    color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-right_admin li:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.header-left_admin .them_admin:hover .sub-them_admin {
+    display: block;
+}
+
+.header-left_admin .sub-them_admin {
+    position: absolute;
+    background-color: lightblue;
+    margin-left: 150px;
+    width: 150px;
+    display: none;
+}
+
+.header-left_admin .sub-them_admin li {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.header-left_admin .sub-them_admin li:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.content_admin {
+    height: 500px;
+}
+
+.ctn-frame_admin {
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.ctn-btn_admin {
+    margin-top: 5px;
+}
+
+.ctn-btn_admin button {
+    width: 100%;
+    line-height: 30px;
+    background-color: green;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+}
