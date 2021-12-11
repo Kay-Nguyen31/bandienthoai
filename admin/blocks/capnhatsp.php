@@ -7,7 +7,7 @@
             <div class="item-khungchua-center">
                 <!-- code trong div này .. tạo class rồi code -->
                 <div class="sanpham">
-                    <h2>Thêm sản phẩm</h2>
+                    <h2>Cập nhật sản phẩm</h2>
                     <div class="add_sp">
                         <div class="from">
                             <div class="r">
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                         <div class="r-button">
-                            <button class="add">Thêm</button>
+                            <button class="add">Cập nhật</button>
                             <button id="thoat" class="thoat">Thoát</button>
                         </div>
                     </div>

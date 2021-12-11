@@ -5,18 +5,52 @@
 }
 
 .kh-container {
-    width: 950px;
-    height: 600px;
-    margin-left: 270px;
-    background-color: ghostwhite;
+    /* width: 950px; */
+    /* height: 600px; */
+    /* margin-left: 270px; */
+    background-color: whitesmoke;
+  
+}
+
+.kh-main {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    width: 850px;
+    background-color: white;
+    margin: 0 65px;
 }
 
 .kh-title {
     text-align: center;
+    margin-top: 10px;
+}
+
+.kh-timkiem {
+    margin-top: 20px;
+    float: right;
+    margin-right: 90px;
+}
+
+.kh-timkiem input {
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.kh-timkiem #kh-tk-btn {
+    background-color: violet;
+    color: white;
+}
+
+.kh-timkiem #kh-tk-btn:hover {
+    background-color: burlywood;
 }
 
 .kh-content {
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .kh-content table {

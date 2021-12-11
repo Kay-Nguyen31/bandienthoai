@@ -49,8 +49,8 @@ $idsp = $_GET['idsp'];
                     <br>
                 </div>
                 <br>
-                <a href="" class="muangay">Mua ngay</a>
-                <a href="" class="themvaogiohang">Thêm vào giỏ hàng</a>
+                <a href="index.php?page=giohang&idsp=" class="muangay">Mua ngay</a>
+                <a href="index.php?page=giohang&idsp=" class="themvaogiohang">Thêm vào giỏ hàng</a>
             </div>
         </div>
         <div class="item-km">

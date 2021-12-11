@@ -16,6 +16,7 @@ require_once "./connect.php";
     <link rel="stylesheet" href="./css/sanpham.css">
     <link rel="stylesheet" href="./css/chitietsp1.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <!-- <link rel="stylesheet" href="./css/giohang.css"> -->
     <title>Home</title>
 </head>
 

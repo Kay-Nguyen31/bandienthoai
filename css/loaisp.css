@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.dh-container {
-    /* width: 950px;
-    height: 600px;
-    margin-left: 270px; */
+.lsp-container {
+    /* width: 500px;
+    height: 600px; */
+    /* margin-left: 270px; */
     background-color: whitesmoke;
 }
 
-.dh-main {
+.lsp-main {
     border-radius: 10px;
     border: 2px solid #ccc;
     width: 850px;
@@ -19,21 +19,18 @@
     margin: 0 65px;
 }
 
-.header-group {
-    margin-top: 15px;
-}
-
-.dh-title {
+.lsp-title {
     text-align: center;
     margin-top: 10px;
 }
 
-.dh-timkiem {
+.lsp-timkiem {
+    margin-top: 35px;
     float: left;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
-.dh-timkiem input {
+.lsp-timkiem input {
     padding: 0 10px;
     border-radius: 5px;
     margin-top: 15px;
@@ -41,76 +38,79 @@
     border: 1px solid #ccc;
 }
 
-.dh-timkiem #btn-timkiem {
+.lsp-timkiem #lsp-tk-btn {
     background-color: cadetblue;
     color: white;
 }
 
-.dh-timkiem #btn-timkiem:hover {
+.lsp-timkiem #lsp-tk-btn:hover {
     background-color: thistle;
 }
 
-.dh-content {
-    margin-top: 70px;
+.lsp-content {
+    margin-top: 90px;
     margin-bottom: 20px;
     /* margin-left: 30px; */
 }
 
-.dh-content table {
+.lsp-content table {
     text-align: center;
     margin: auto;
     border-collapse: collapse;
 }
 
-.dh-content table th,
-.dh-content table td {
-    padding: 10px 5px;
+.lsp-content table th,
+.lsp-content table td {
+    padding: 10px 30px;
     border: 1px solid black;
 }
 
-.dh-content table tr img {
+.lsp-content table tr img {
     width: 50px;
+    
 }
 
-.btn-them {
+.lsp-them {
+    margin-top: 15px;
     float: right;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
-.btn-them button {
+.lsp-them button {
     padding: 5px;
     background-color: violet;
-    width: 120px;
+    width: 140px;
     height: 35px;
     border: none;
     border-radius: 5px;
 }
 
-.btn-them button:hover {
-    background-color: steelblue;
+.lsp-them button:hover {
+    background-color: lightblue;
 }
 
-.dh-content .btn-capnhat {
+.lsp-content .lsp-cn-btn {
+    background-color: cadetblue;
+    width: 80px;
+    height: 25px;
+    border: none;
+}
+
+.lsp-content .lsp-xoa-btn {
     background-color: cadetblue;
     width: 60px;
     height: 25px;
     border: none;
 }
 
-.dh-content .btn-xoa {
-    background-color: cadetblue;
-    width: 40px;
-    height: 25px;
-    border: none;
-}
-
-.dh-content .dh-btn:hover {
+.lsp-content .lsp-cn-btn:hover,
+.lsp-content .lsp-xoa-btn:hover {
     background-color: thistle;
 }
 
-.btn-them a,
-.dh-content .btn-capnhat a,
-.dh-content .btn-xoa a {
+.lsp-them a,
+.lsp-content .lsp-cn-btn a,
+.lsp-content .lsp-xoa-btn a {
     text-decoration: none;
     color: white;
 }

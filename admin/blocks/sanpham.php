@@ -1,52 +1,65 @@
-<div class="container-danhsachsanpham">
-    <div class="wrapper-danhsachsanpham">
-        <h2 style="    text-align: center;">Danh sách sản phẩm đang kinh doanh</h2>
-        <div class="bnt_addsanpham">
-            <input class="btn_them" type="submit" value="Thêm sản phẩm" id="themsp">
-        </div>
-        <div class="table-danhsachsanpham">
-            <table>
-                <tr>
-                    <th>STT</th>
-                    <th>Tên sản phẩm</th>
-                    <th>Số lượng</th>
-                    <th>Mức giá </th>
-                    <th></th>
-                </tr>
-                
-                <tr>
-                    <td>1</td>
-                    <td>Son Dưỡng</td>
-                    <td >10</td>
-                    <td >103.000đ</td>
-                    <td >
-                        <input type="button" id="suasp" value="Sửa" style="background: #FFA500;color:white;border-radius:8px">
-                        <input type="button" id="xoasp" value="Xóa" style="background: #FF0000;color:white;border-radius:8px">
-                    </td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Son Dưỡng</td>
-                    <td >10</td>
-                    <td >103.000đ</td>
-                    <td >
-                        <input type="button" value="Sửa" style="background: #FFA500;color:white;border-radius:8px">
-                        <input type="button" value="Xóa" style="background: #FF0000;color:white;border-radius:8px">
-                    </td>
-                </tr>
-               
-        
-            </table>
+<div class="container-khungchua">
+    <div class="khungchua">
+        <div class="wrapper-khungchua">
+            <div class="item-khungchua-left"></div>
+            <div class="item-khungchua-center">
+                <!-- code trong div này .. tạo class rồi code -->
+                <div class="lsp-container">
+                    <div class="lsp-main" s\>
+                        <div class="lsp-title">
+                            <h2>Danh sách sản phẩm</h2>
+                        </div>
+                        <div class="lsp-them">
+                           <a href="index.php?folder=admin&page=admin&adminpage=themsp"><button id="themlsp" style="color:white">Thêm sản phẩm</button></a>
+                        </div>
+                        <div class="lsp-timkiem">
+                            <input type="text" placeholder="Tìm kiếm..">
+                            <input id="lsp-tk-btn" type="button" value="Tìm kiếm">
+                        </div>
+                        <div class="lsp-content">
+                        <table>
+                                <thead>
+                                    <th>STT</th>
+                                    <th>Hình ảnh</th>
+                                    <th>Tên sản phẩm</th>
+                                    <th>Loại</th>
+                                    <th>Giá</th>
+                                    <th>Số lượng</th>
+                                    <th></th>
+                                    <th></th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Nguyễn Thị B</td>
+                                        <td>0123456789</td>
+                                        <td>Nữ</td>
+                                        <td>03/03/2000</td>
+                                        <td>Cần Thơ</td>
+                                        <td><button class="sp-btn"><a href="index.php?folder=admin&page=admin&adminpage=capnhatsp">Cập nhật</a></button></td>
+                                        <td><button class="sp-btn"><a href="">Xoá</a></button></td>
+                                    </tr>
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- code trong div này .. tạo class rồi code -->
+
+            </div>
+            <div class="item-khungchua-right"></div>
+
         </div>
     </div>
+
 </div>
 <script>
-    document.getElementById("themsp").onclick = function()
+    document.getElementById("themlsp").onclick = function()
     {
-        window.location.href= "index.php?folder=admin&page=admin&adminpage=themsp";
-    }  
-    document.getElementById("suasp").onclick = function()
-    {
-        window.location.href= "index.php?folder=admin&page=admin&adminpage=suasp";
+        window.location.href= "index.php?folder=admin&page=admin&adminpage=themloaisp";
     }  
 </script>
