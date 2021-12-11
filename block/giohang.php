@@ -1,41 +1,41 @@
+
 <div class="container-giohang">
-        <div class="giohang">
-            <div class="title">
-                <h2>Giỏ hàng</h2>
-            </div>
-            <table>
-                <tr>
-                    <th>Sản phẩm</th>
-                    <th>Thông tin sản phẩm</th>
-                    <th>Đơn giá</th>
-                    <th>Số lượng</th>
-                    <th>Thành tiền</th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td><img src="./public/img/laroche.png"></td>
-                    <td class="tensp">Laroche-posay Effaclar Purifying Foaming Gel For Oily Sensitive Skin 400ml (IP01)</td>
-                    <td>401,250đ</td>
-                    <td><input type="number" id="quantity" value="1" name="quantity" min="1" max="5"></td>
-                    <td>401,250đ</td>
-                    <td><button><i class="ti-close"></i></button></td>
-                </tr>
-            </table>
-            <div class="btn">
-                <button>Mua tiếp</button>
-                <button>Cập nhật giỏ hàng</button>
-            </div>
-        </div>
-        <div class="donhang">
-            <div class="title">
-                <h2>Đơn hàng</h2>
-            </div>
-            <div class="bill">
-                <div class="price">
-                    <h3 class="tongtien">Tổng tiền</h3>
-                    <h3>374,000đ</h3>
+    <div class="wrapper-giohang">
+        <div class="item-giohang-left">
+            <div class="giohang">
+                <div class="title-giohang">
+                    <h2>Giỏ hàng</h2>
+                    <hr>
+                    <div class="lsp-content">
+                        <table>
+                            <thead>
+                                <th>STT</th>
+                                <th>Hình ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Loại</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th></th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Nguyễn Thị B</td>
+                                    <td>0123456789</td>
+                                    <td>Nữ</td>
+                                    <td>03/03/2000</td>
+                                    <td>Cần Thơ</td>
+                                    <td><button class="sp-btn"><a href="index.php?folder=admin&page=admin&adminpage=capnhatsp">Cập nhật</a></button></td>
+                                    <td><button class="sp-btn"><a href="">Xoá</a></button></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <button>Thanh toán</button>
             </div>
         </div>
+        <div class="item-giohang-right">2</div>
     </div>
+</div>
