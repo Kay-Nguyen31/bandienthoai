@@ -20,19 +20,19 @@ body {
 
 .container form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width: 50%;
+    width: 100%;
     float: left;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: white;
-    padding: 25px 40px 25px;
-    height: 450px;
+    padding: 15px 40px 15px;
+    height: 620px;
     /* border-radius: 15px; */
 }
 
 .title {
     /* display: flex; */
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .title h3 {
@@ -75,7 +75,7 @@ body {
     /* background-color: cornflowerblue; */
     background-color: violet;
     /* background-color: plum; */
-    width: 150px;
+    width: 200px;
     padding: 8px;
     border-radius: 10px;
     border: none;

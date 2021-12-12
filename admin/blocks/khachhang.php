@@ -18,42 +18,35 @@
                                 <thead>
                                     <th>STT</th>
                                     <th>Tên khách hàng</th>
-                                    <th>Số điện thoại</th>
                                     <th>Giới tính</th>
-                                    <th>Ngày sinh</th>
-                                    <th>Địa chỉ</th>
+                                    <th>Email</th>
                                     <th></th>
                                     <th></th>
                                 </thead>
                                 <tbody>
+                                    <?php
+                                    require_once "./admin/function.php";
+                                    require_once "./connect.php";
+                                    $kh = loadKhachHang($conn);
+                                    $i=0;
+                                    for($i=1; $i<$row = mysqli_fetch_array($kh); $i++){
+                                    ?>
                                     <tr>
-                                        <td>1</td>
-                                        <td>Nguyễn Thị B</td>
-                                        <td>0123456789</td>
-                                        <td>Nữ</td>
-                                        <td>03/03/2000</td>
-                                        <td>Cần Thơ</td>
+                                        <td><?php  echo $i?></td>
+                                        <td><?php echo $row['hoten']?></td>
+                                        <td><?php echo $row['gioitinh']?></td>
+                                        <td><?php echo $row['email']?></td></td>
                                         <td><button class="kh-btn"><a href="">Sửa</a></button></td>
                                         <td><button class="kh-btn"><a href="">Xoá</a></button></td>
                                     </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Nguyễn Thị B</td>
-                                        <td>0123456789</td>
-                                        <td>Nữ</td>
-                                        <td>03/03/2000</td>
-                                        <td>Cần Thơ</td>
-                                        <td><button class="kh-btn"><a href="">Sửa</a></button></td>
-                                        <td><button class="kh-btn"><a href="">Xoá</a></button></td>
-                                    </tr>
+                                    <?php
+                                        }
+                                    ?>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-
-
-
                 <!-- code trong div này .. tạo class rồi code -->
 
             </div>

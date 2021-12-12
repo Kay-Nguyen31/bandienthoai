@@ -33,3 +33,8 @@ function login($conn)
         }
     }
 
+    function loadKhachHang($conn){
+        $sql = "SELECT * FROM `taikhoan` WHERE quyen = 'nguoidung'";
+        return mysqli_query($conn, $sql);
+    }
+
